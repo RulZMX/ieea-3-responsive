@@ -13,7 +13,7 @@ header{
 	margin: 0;
 	padding: 1em 0.5;
 	vertical-align: left;
-	width: 45%;
+	width: 50%;
 }
 
 #logo img{
@@ -39,30 +39,38 @@ header{
 	margin-right: 1em;
 }
 
-.Transparencia-mensaje{
-	text-align: center;
+.google-ieea{
+	width: 100%;
+}
+
+.googlemap{
+	width: 100%;
 }
 
 .Footer{
-	background-image: url('../img/fondopie.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 380px;
-	vertical-align: top;
+	background: #004202;
 }
 
-.footer-adrees{
+.banda{
+	margin: 0;
+	width: 100%;
+}
 
-
+.banda img{
+	width: 100%;
 }
 
 #footeradress, #footerlinks, #sociallinks{
+	color: lightgray;
 	display: inline-block;
-	margin-top: 6em;
+	margin-top: 1em;
 	vertical-align: top;
 }
 
+.menu-footerLink{
+	color: #EEEEEE;
+	text-decoration: none;
+}
 
 
 
