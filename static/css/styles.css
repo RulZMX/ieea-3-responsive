@@ -1,0 +1,75 @@
+/* RATERO QUE BUSCAS AQUI*/
+
+
+
+/* Header*/
+header{
+	margin: 0;
+}
+
+
+#logo{
+	background: white;
+	margin: 0;
+	padding: 1em 0.5;
+	vertical-align: left;
+	width: 45%;
+}
+
+#logo img{
+	width: 100%;
+}
+
+/* Menu de navegación*/
+.MainMenu{
+	background: #1E1E1E;
+	font-size: 1em;
+	text-align: center;
+	height: 1.8em;
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-link{
+	color: #EEEEEE;
+	text-decoration: none;
+	line-height: 1.8em;
+	margin-right: 1em;
+}
+
+.Transparencia-mensaje{
+	text-align: center;
+}
+
+.Footer{
+	background-image: url('../img/fondopie.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 380px;
+	vertical-align: top;
+}
+
+.footer-adrees{
+
+
+}
+
+#footeradress, #footerlinks, #sociallinks{
+	display: inline-block;
+	margin-top: 6em;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
