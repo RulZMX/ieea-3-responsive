@@ -1,12 +1,19 @@
 /* RATERO QUE BUSCAS AQUI*/
+/*Social media icons*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
 
-
+}
 /* Header*/
 header{
 	margin: 0;
 }
 
+footer
 
 #logo{
 	background: white;
@@ -20,7 +27,8 @@ header{
 	width: 100%;
 }
 
-/* Menu de navegación*/
+
+/* <-----Menu de navegación----->*/
 .MainMenu{
 	background: #1E1E1E;
 	font-size: 1em;
@@ -40,6 +48,7 @@ header{
 }
 
 .google-ieea{
+	margin: 1em 0 1em 0;
 	width: 100%;
 }
 
@@ -47,6 +56,9 @@ header{
 	width: 100%;
 }
 
+
+
+/*<-----Footer----->*/
 .Footer{
 	background: #004202;
 }
@@ -57,22 +69,76 @@ header{
 }
 
 .banda img{
+	margin: 0;
 	width: 100%;
 }
 
 #footeradress, #footerlinks, #sociallinks{
 	color: lightgray;
 	display: inline-block;
-	margin-top: 1em;
 	vertical-align: top;
+}
+
+#footeradress{
+	width: 400px;
+	margin-left: 2em;
+}
+
+.menufooter{
+	display: block;
+}
+
+.menu-footer{
+	padding-left: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.menu-footerItem{
+	padding-left: 1.3em;
+    background: url(../img/bullet_yellow.png) 0em 0em no-repeat;
+    margin-bottom: 0.4em;
+
+}
+
+.footer-menuLinks{
+	margin-left: 3em;
+}
+
+.footer-socialIcons{
+	margin-left: 3em;
+}
+
+.footer-sociallink{
+	color: lightgray;
+	padding-left: 0.4em;
+	text-decoration: none;
+}
+
+.zocial-twitter{
+	margin-top: 0.4em;
+}
+
+.zocial-facebook{
+	margin-top: 0.4em;
+}
+
+.zocial-youtube{
+	margin-top: 0.4em;
+}
+
+.zocial-email{
+	margin-top: 0.4em;
+}
+
+.zocial-call{
+	margin-top: 0.4em;
 }
 
 .menu-footerLink{
 	color: #EEEEEE;
 	text-decoration: none;
 }
-
-
 
 
 
