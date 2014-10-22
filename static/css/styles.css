@@ -115,6 +115,10 @@ footer
 	text-decoration: none;
 }
 
+.zocial-{
+	list-style: none;
+}
+
 .zocial-twitter{
 	margin-top: 0.4em;
 }
