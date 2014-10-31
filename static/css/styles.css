@@ -131,18 +131,52 @@ footer
 
 }
 
+/* contenido section1*/
 
-/*google maps*/
-.google-ieea{
-	margin: 1em 0 1em 0;
-	width: 100%;
+.content-articulos, .content-banners, .content-tweets {
+    display: inline-block;
+    vertical-align: top;
 }
 
-.googlemap{
-	width: 100%;
+/*banners section 1*/
+
+.content-banners{
+    background-color: gray;
+    margin: 0.2em;
+    width: 390px;
 }
 
+.content-articulos{
+    background-color: red;
+    width: 390px;
+}
 
+.content-tweets{
+    background-color: blue;
+    margin: 0.2em;
+    width: 390px;
+}
+
+/* divs section 2*/
+.section2{
+    height: 350px;
+}
+
+.menu1-section2, .menu2-section2, .menu3-section2{
+    display: inline-block;
+
+    padding: 1em;
+    vertical-align: top;
+    width: 300px;
+}
+
+.menu3-section2{
+    background-color: #222222;
+}
+
+.menu1-section2, .menu2-section2{
+    background-color: #1c1c1c;
+}
 
 /*<-----Footer----->*/
 .Footer{
