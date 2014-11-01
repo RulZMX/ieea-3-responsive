@@ -138,6 +138,12 @@ footer
     vertical-align: top;
 }
 
+/*section 1*/
+
+.section1{
+	margin-top: 0.5em;
+}
+
 /*banners section 1*/
 
 .content-banners{
@@ -152,31 +158,21 @@ footer
 }
 
 .content-tweets{
-    background-color: blue;
     margin: 0.2em;
     width: 390px;
 }
 
 /* divs section 2*/
 .section2{
-    height: 350px;
+    height: 300px;
 }
 
 .menu1-section2, .menu2-section2, .menu3-section2{
     display: inline-block;
-
-    padding: 1em;
     vertical-align: top;
-    width: 300px;
+    width: 390px;
 }
 
-.menu3-section2{
-    background-color: #222222;
-}
-
-.menu1-section2, .menu2-section2{
-    background-color: #1c1c1c;
-}
 
 /*<-----Footer----->*/
 .Footer{
@@ -265,10 +261,11 @@ footer
 }
 
 @media (min-width: 1200px){
-	body{
-		padding-left: 1em;
-		width: 1200px;
-	}
+	body {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
 		#footerlinks{
 		overflow: hidden;
 	}

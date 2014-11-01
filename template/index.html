@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="engine1/style.css">
 	<script type="text/javascript" src="../static/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="../static/js/script.js"></script>
+		
 		<header>
 			<figure id="logo" class="logos">
 				<img src="../static/img/logos.jpg">
@@ -186,7 +187,7 @@
 		
 		</div>
 		</section> <!-- Banner end-->
-		<section>
+		<section class="section1">
 		<div class="content-articulos">
 				<article>
 					<figure>
@@ -207,15 +208,6 @@
 					<figcaption>Este es un ejemplo de un articulo</figcaption>
 				</article>
 			</div>
-			<div class="content-tweets">
-				<a class="twitter-timeline"
- 						width="380"
-  						height="350"
- 						href="https://twitter.com/twitterdev"
-  						data-widget-id="528232965512237056">Tweets por @IEEA_QROO</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</a>
-			</div>
 			<div class="content-banners">
 				<figure class="banners">
 						<img src="../static/img/estudio1.jpg">
@@ -229,9 +221,22 @@
 				<figure class="banners">
 						<img src="../static/img/estudio4.jpg">
 				</figure>
+			</div>
+			<div class="content-tweets">
+				<a class="twitter-timeline"
+ 						width="380"
+  						height="350"
+ 						href="https://twitter.com/twitterdev"
+  						data-tweet-limit="4"
+  						data-chrome="nofooter transparent"
+  						data-widget-id="528232965512237056">Tweets por @IEEA_QROO
+  						</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</a>
 			</div><!-- end banners-->
 		</section>
 		<section class="section2">
+
 				<div class="menu1-section2">
 				<ul class="menu-recursosEducativos">
 						<h4>Recursos Educativos</h4>
@@ -277,7 +282,8 @@
 					
 				</div>	
 		</section>
-		<footer id="piepagina" class="Footer">
+		<footer >
+		<div id="piepagina" class="Footer">
 				<figure class="banda">
 					<img src="../static/img/cinta.jpg">
 				</figure>
@@ -328,6 +334,7 @@
  						<li class="zocial-email">&nbsp;&nbsp;&nbsp;ieeaqroo@hotmail.com</li>
  						<li class="zocial-call">&nbsp;&nbsp;&nbsp;01 983 832 3101</li>
 					</ul>
+				</div>
 				</div>
 		</footer>
 	</body>
