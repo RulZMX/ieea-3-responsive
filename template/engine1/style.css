@@ -239,7 +239,7 @@
 	word-wrap: break-word;
 	white-space: normal;
 	text-align: left;
-	max-width: 50%;
+	max-width: 40%;
 	left: 0;
 }
 .csslider1 > .cs_description > label > span {
@@ -666,7 +666,7 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label:after {
 
 .csslider1 > .cs_description > label {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 20px;
+	font-size: 35px;
 	line-height: normal;
 	bottom: 40px;
 	left: 10px;
