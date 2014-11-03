@@ -283,10 +283,21 @@ footer
 
 /* estilos secciones*/
 
+.contenido-info{
+    width: 70%;
+}
 
-
-
+.menu-izq{
+    position: relative;
+    height: 450px;
+}
 
 .menu-left{
-	float: right;
+   background: red;
+   right: 0;
+   position: absolute;
+   top: 0;
+   list-style-type: none;
+   text-decoration: none;
+
 }
