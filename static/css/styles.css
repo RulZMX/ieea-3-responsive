@@ -226,7 +226,6 @@ footer
 }
 
 #footeradress{
-	width: 400px;
 	margin-left: 2em;
 }
 
@@ -308,6 +307,13 @@ footer
 	#footerlinks{
 	display: none;
 	}
+	#banner-section2 .section2-banner img{
+		width: 375px;
+	}
+	footer #footeradress .address{
+		width: 100%;
+	}
+
 }
 
 
