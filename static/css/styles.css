@@ -11,7 +11,7 @@
 
 
 body, nav, ul, li, a  {margin: 0; padding: 0;}
-body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body {font-family: 'Titillium Web', sans-serif; }
 a {text-decoration: none;}
 
 
@@ -133,23 +133,20 @@ footer
 
 /* contenido section1*/
 
-.content-articulos, .content-banners, .content-tweets {
+.content-menuEducacion, .content-menuRecursos, .content-tweets {
     display: inline-block;
     vertical-align: top;
 }
 
 /*section 1*/
 
-.section1{
-	margin-top: 0.5em;
-}
 
 /*banners section 1*/
 
 .titulo-educacionAdultos{
-    padding-left: 1em;
-    width: 300px;
+	border-bottom: 2px solid red;
 }
+
 .menu-educacionAdultos{
     margin: 1em;
 }
@@ -159,11 +156,31 @@ footer
     background: url(../img/arrow-right.png) 0.5em 0.5em no-repeat;
     padding-left: 2em;
     padding-top: 0.5em;
+}
 
+.titulo-recursosEducativos{
+	border-bottom: 2px solid red;
 }
-.content-banners{
-    width: 390px;
+
+.content-menuRecursos{
+	margin-top: 0;
+	margin-left: 1em;
+    width: 380px;
 }
+
+.menu-recursosItem{
+	color: #EEEEEE;
+    text-decoration: none;
+    background: url(../img/arrow-right.png) 0.5em 0.5em no-repeat;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+
+.titulo-tweets{
+	border-bottom: 2px solid red;
+}
+
+
 
 .banners{
     margin: 0 0 0 1em;
@@ -172,13 +189,13 @@ footer
     border: 1px solid #CCCCCC;
     margin: 0 0 0 0;
 }
-.content-articulos{
-    width: 390px;
+.content-menuEducacion{
+    width: 380px;
 }
 
 .content-tweets{
-    margin: 0.2em;
-    width: 390px;
+    margin-left: 1em;
+    width: 380px;
 }
 
 /* divs section 2*/
