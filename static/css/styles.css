@@ -20,14 +20,14 @@ header{
 	margin: 0;
 }
 
-footer
+
 
 #logo{
 	background: white;
 	margin: 0;
 	padding: 1em 0.5;
 	vertical-align: left;
-	width: 50%;
+	width: 100%;
 }
 
 #logo img{
@@ -37,17 +37,19 @@ footer
 
 /* <-----Menu de navegación-----> */
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .toggleMenu {
     display:  none;
-    background: #666;
+    background: #049802;
+    margin-left: 1em;
     padding: 10px 15px;
     color: #fff;
 }
 .nav {
+    border-radius: 30px;
     list-style: none;
      *zoom: 1;
      background:#049802;
@@ -75,7 +77,7 @@ footer
     float: left;
 }
 .nav > li > .parent {
-    background-image: url("../images/downArrow.png");
+    background-image: url("../static/img/downArrow.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -110,6 +112,9 @@ footer
     .active {
         display: block;
     }
+    .nav {
+    border-radius: 0px;
+    }
     .nav > li {
         float: none;
     }
@@ -117,7 +122,7 @@ footer
         background-position: 95% 50%;
     }
     .nav li li .parent {
-        background-image: url("../images/downArrow.png");
+        background-image: url("../static/img/downArrow.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
@@ -130,21 +135,20 @@ footer
     }
 
 }
+/* <---- FIN Menu Navegacion ----> */
 
-/* contenido section1*/
 
+/* <---- contenido section1 ----> */
 .content-menuEducacion, .content-menuRecursos, .content-tweets {
     display: inline-block;
     vertical-align: top;
 }
 
-/*section 1*/
-
-
-/*banners section 1*/
+/* Menu1 section 1*/
 
 .titulo-educacionAdultos{
 	border-bottom: 2px solid red;
+    text-shadow: 1px 2px 1px #CCCCCC;
 }
 
 .menu-educacionAdultos{
@@ -160,6 +164,7 @@ footer
 
 .titulo-recursosEducativos{
 	border-bottom: 2px solid red;
+    text-shadow: 1px 2px 1px #CCCCCC;
 }
 
 .content-menuRecursos{
@@ -178,6 +183,7 @@ footer
 
 .titulo-tweets{
 	border-bottom: 2px solid red;
+    text-shadow: 1px 2px 1px #CCCCCC;
 }
 
 
@@ -319,6 +325,8 @@ footer
 
 @media screen and (max-width: 768px){
 	#logo img{
+        margin-right: auto;
+        margin-left: auto;
 		width: 100%;
 	}
 	#footerlinks{
