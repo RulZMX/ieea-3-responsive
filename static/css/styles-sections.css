@@ -17,18 +17,41 @@ header{
 }
 
 #logo{
-	background: white;
-	margin: 0;
-	padding: 1em 0 1em 0;
-	vertical-align: left;
-	width: 100%;
+    background: white;
+    margin: 0;
+    padding: 1em 0.5;
+    width: 50%;
 }
 
 #logo img{
-	width: 45%;
+    width: 100%;
 }
 
+.logos{
+    display: inline-block;
+    vertical-align: top;
+}
 
+.formulario{
+    display: inline-block;
+    float: right;
+    margin-top: 1.5em;
+    text-align: right;
+    padding: 1em;
+}
+.formulario input{
+    border-radius: 5px;
+    padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]{
+    background: #049802;
+    border: 1px solid #049802;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+    font-style: italic;
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+}
 /* <-----Menu de navegación-----> */
 .container {
     width: 100%;
@@ -166,6 +189,12 @@ header{
     text-align: justify;
 }
 
+.menu-izq{
+    margin-left: 1em;
+    float: right;
+    width: 380px;
+}
+
 .titulo-tweets{
 	border-bottom: 2px solid red;
     text-shadow: 1px 2px 1px #CCCCCC;
@@ -173,10 +202,18 @@ header{
 
 .content-tweets{
     margin-left: 1em;
-    float: right;
-    width: 380px;
+    width: 330px;
 }
 
+.menu-masvisto{
+    margin-left: 1em;
+    width: 330px;
+}
+
+.titulo-destacado{
+    border-bottom: 2px solid red;
+    text-shadow: 1px 2px 1px #CCCCCC;
+}
 
 /*<-----Footer----->*/
 .Footer{
@@ -275,10 +312,19 @@ header{
 }
 
 @media screen and (max-width: 768px){
-	#logo img{
+	#logo{
+        width: 100%;
+    }
+
+    #logo img{
         margin-right: auto;
         margin-left: auto;
-		width: 100%;
+        width: 100%;
+    }
+
+.formulario{
+        margin-top: 0;
+        
 	}
 	#footerlinks{
 	display: none;
