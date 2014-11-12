@@ -6,7 +6,11 @@
   font-family: 'zocial', sans-serif;
 }
 
-body, nav, ul, li, a  {margin: 0; padding: 0;}
+body{
+    background-color: #FFF;
+    }
+
+nav, ul, li, a  {margin: 0; padding: 0;}
 body {font-family: 'Titillium Web', sans-serif; }
 a {text-decoration: none;}
 
@@ -177,12 +181,34 @@ header{
 /* contenido*/
 
 .section1{
-    padding-top: 1em;
+    background-color: #FFF;
+    height: auto;
+    padding-top: 2em;
+
+}
+
+.logoieea{
+    margin: 0;
+    text-align: center;
+}
+
+.logo-ieea{
+    width: 40%;
 }
 
 .content-menuEducacion{
-    margin-left: 1.5em;
-    width: 670px;
+    margin: 0 0 0 1.5em;
+    width: 63%;
+}
+
+.fotodirector{
+   float: left;
+    margin: 1em;
+}
+
+.titulo{
+    margin: 0;
+    padding: 0;
 }
 
 .texto-parrafos{
@@ -190,8 +216,9 @@ header{
 }
 
 .menu-izq{
+	display: inline-block;
+	vertical-align: top;
     margin-left: 1em;
-    float: right;
     width: 380px;
 }
 
@@ -213,6 +240,19 @@ header{
 .titulo-destacado{
     border-bottom: 2px solid red;
     text-shadow: 1px 2px 1px #CCCCCC;
+}
+
+.menu-masvistoright{
+    list-style: none;
+}
+
+.section-bannerright{
+    margin-left: 1em;
+    width: 330px;
+}
+
+.logoaniversario40{
+    width: 330px;
 }
 
 /*<-----Footer----->*/
@@ -321,6 +361,14 @@ header{
         margin-left: auto;
         width: 100%;
     }
+
+.content-menuEducacion{
+    width: auto;
+}
+
+.menu-izq{
+    float: none;
+}
 
 .formulario{
         margin-top: 0;
