@@ -241,6 +241,7 @@ header{
 
 .content-tweets{
     margin-left: 1em;
+    padding-left: 1em;
     width: 330px;
 }
 
@@ -284,8 +285,30 @@ header{
 
 }
 
+.titulo-educacionAdultos{
+    border-bottom: 2px solid red;
+    text-shadow: 1px 2px 1px #CCCCCC;
+}
 
+.menu-educacionAdultos{
+    margin: 1em;
+    width: 330px;
+}
+.menu-educacionItem{
+    color: #EEEEEE;
+    text-decoration: none;
+    background: url(../img/arrow-right.png) 0.5em 0.5em no-repeat;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
 
+.menu-recursosItem{
+    color: #EEEEEE;
+    text-decoration: none;
+    background: url(../img/arrow-right.png) 0.5em 0.5em no-repeat;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
 
 /*<-----Footer----->*/
 .Footer{
