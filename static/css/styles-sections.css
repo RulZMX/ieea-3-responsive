@@ -273,15 +273,20 @@ header{
 }
 
 .pdficon{
+    margin: 0;
     text-align: right;
+ 
+}
+.pdficon2{
+    margin: 0;
 }
 
 .pdf:before{
     color: #801815;
     font-family: "iconitos";
-    font-size: 1.8em;
+    font-size: 1.4em;
     content: "\e600";
-    margin-right: 3.5em;
+    margin-right: 0.5em;
 
 }
 
