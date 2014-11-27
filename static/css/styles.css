@@ -1,9 +1,12 @@
-/*Social media icons*/
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+@font-face {
+    font-family: 'iconitos';
+    src:url('../../static/fonts/icomoon.eot?m7anfz');
+    src:url('../../static/fonts/icomoon.eot?#iefixm7anfz') format('embedded-opentype'),
+        url('../../static/fonts/icomoon.woff?m7anfz') format('woff'),
+        url('../../static/fonts/icomoon.ttf?m7anfz') format('truetype'),
+        url('../../static/fonts/icomoon.svg?m7anfz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body, nav, ul, li, a  {margin: 0; padding: 0;}
@@ -336,28 +339,43 @@ header{
 	text-decoration: none;
 }
 
-.zocial-{
-	list-style: none;
+.sociallist{
+    list-style: none;
 }
 
-.zocial-twitter{
-	margin-top: 0.4em;
+.icon-phone:before{
+    content: "\e600";
+    font-family: "iconitos";
+    font-size: 1.4em;
 }
 
-.zocial-facebook{
-	margin-top: 0.4em;
+.icon-download:before {
+    content: "\e601";
+    font-family: "iconitos";
+    font-size: 1.4em;
 }
-
-.zocial-youtube{
-	margin-top: 0.4em;
+.icon-mail:before {
+    content: "\e601";
+    font-family: "iconitos";
+    font-size: 1.4em;
 }
-
-.zocial-email{
-	margin-top: 0.4em;
+.icon-facebook:before {
+    content: "\e602";
+    font-family: "iconitos";
+    font-size: 1.4em;
 }
-
-.zocial-call{
-	margin-top: 0.4em;
+.icon-twitter:before {
+    content: "\e603";
+     font-family: "iconitos";
+    font-size: 1.4em;
+}
+.icon-youtube:before {
+    content: "\e604";
+    font-family: "iconitos";
+    font-size: 1.4em;
+}
+.icon-file-pdf:before {
+    content: "\e600";
 }
 
 .menu-footerLink{
