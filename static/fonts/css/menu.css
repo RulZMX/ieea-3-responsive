@@ -1,0 +1,116 @@
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+body {font-family: 'Titillium Web', sans-serif; }
+a {text-decoration: none;}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 5px auto;
+}
+
+.toggleMenu {
+    display:  none;
+    background: #049802;
+    margin-left: 1em;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.nav {
+    border-radius: 30px;
+    list-style: none;
+     *zoom: 1;
+     background:#049802;
+}
+
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+
+.nav a {
+    padding: 10px 15px;
+    color:#fff;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li > .parent {
+    background-image: url("../static/img/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.nav > li > a {
+    display: block;
+}
+
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+
+.nav > li.hover > ul {
+    left: 0;
+}
+
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+
+.nav li li a {
+    display: block;
+    background: #049802;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #0e9f01;
+}
+
+.nav li li li a {
+    background:#249578;
+    z-index:200;
+    border-top: 1px solid #1d7a62;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav {
+    border-radius: 0px;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("../static/img/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
