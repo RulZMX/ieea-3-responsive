@@ -21,8 +21,8 @@
 }
 
 .infoSection{
-    margin: 0 0 0 1.5em;
-    width: 63%;
+    margin: 0 1em 0 1em;
+    width: 69%;
 }
 
 .fotodirector{
@@ -43,7 +43,7 @@
 	display: inline-block;
 	vertical-align: top;
     margin-left: 1em;
-    width: 380px;
+    width: 25%;
 }
 
 .titulo-tweets{
@@ -52,9 +52,7 @@
 }
 
 .sectionTweets{
-    margin-left: 1em;
-    padding-left: 1em;
-    width: 330px;
+    width: 100%;
 }
 
 .section-bannerright{
@@ -62,8 +60,8 @@
     width: 330px;
 }
 
-.logoaniversario40{
-    width: 330px;
+.section-bannerright{
+    width: 100%;
 }
 
 .img-organigrama{
@@ -102,9 +100,12 @@
     padding-top: 0.5em;
 }
 
-.menu-rightrecursos{
-    margin: 1em;
-    width: 330px;
+.banner-right{
+    width: 100%;
+}
+
+.logoaniversario40{
+    width: 100%;
 }
 
 .menu-recursosItem{
